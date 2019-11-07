@@ -1,0 +1,14 @@
+#player {
+	max-width: 50%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+h1 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#text {
+	margin-left: 300px;
+	list-style: url('rocket2.png');
+}
