@@ -215,15 +215,10 @@ $('.footer-img').click(function() {
     $("#warning").fadeOut("slow",function(){
         if(!shutdown){
             shutdown = true;
-            $("#warning").text("You asked for it...").fadeIn("slow", function(){
                 setTimeout(function() {
                     $("#start-menu").hide();
                     $("#bsod-window").show();
                 }, 500)
-            });
-        }
-        else {
-            $("#warning").text("Now you broke them all...").fadeIn("slow")
         }
     });
 })
