@@ -110,6 +110,15 @@ $("#manu-window").click(function(){
     focus = "#manu-window";
 })
 
+$("#research-icon").click(function(){
+    $("#research-window").show();
+    focus = "#research-window";
+})
+
+$("#research-window").click(function(){
+    focus = "#research-window";
+})
+
 setInterval(function() {
     $(".icon").css("background", "transparent")
     if(active_icon != '') {
@@ -129,6 +138,8 @@ $(document).mouseup(function(e) {
         if (!($(e.target).attr("id") === "close-button" ||
             $(e.target).attr("id") === "closer-about" ||
             $(e.target).attr("id") === "closer-calc") ||
+            $(e.target).attr("id") === "closer-research"||
+            $(e.target).attr("id") === "closer-manu" ||
             $(e.target).attr("id") === "closer-mine") {
                 container.hide();
         }
@@ -144,7 +155,8 @@ init_closer("popup");
 init_closer("paint");
 init_closer("about");
 init_closer("manu");
-init_closer("bsod")
+init_closer("bsod");
+init_closer("research")
 
 init_row("mine");
 init_row("calc");
@@ -153,6 +165,7 @@ init_row("paint");
 /* We want our windows always centered at first especially in case we are running on mobiles*/
 
 function start_center(){
+    $("#research-window").center()
     $("#manu-window").center()
     $("#calc-window").center()
     $("#mine-window").center()
@@ -167,6 +180,7 @@ function start_center(){
 /* In case a mobile user is changing between portrait and landscape formats */
 
 $(window).resize(function() {
+  $("#research-window").center()
   $("#bsod-window").center();
   $("#manu-window").center();
   $("#popup-window").center();

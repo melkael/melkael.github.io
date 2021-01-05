@@ -53,3 +53,14 @@
 	grid-column-start:2;
 	grid-column-end: 7;
 }
+
+#research-window{
+  width: 500px;
+  height: 310px;
+}
+
+#research-text{
+  margin-top: 8px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
