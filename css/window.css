@@ -57,10 +57,17 @@
 #research-window{
   width: 500px;
   height: 310px;
+  max-width: 95vw;
+  max-height: 95vh;
 }
 
 #research-text{
   margin-top: 8px;
   margin-left: 3px;
   margin-right: 3px;
+}
+
+#mine-window{
+  max-width: 95vw;
+  max-height: 95vw;
 }
