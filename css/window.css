@@ -60,6 +60,10 @@
   max-width: 95vw;
 }
 
+#mine-window{
+  max-width: 95vw;
+}
+
 @media (max-width: 525px){
   #research-window{
     position: relative;
