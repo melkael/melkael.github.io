@@ -58,7 +58,13 @@
   width: 500px;
   height: 310px;
   max-width: 95vw;
-  overflow: auto;
+}
+
+@media (max-width: 525px){
+  #research-window{
+    position: relative;
+    height: auto;
+  }
 }
 
 #window-header-research{
