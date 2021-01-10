@@ -31,6 +31,8 @@
   background-image: linear-gradient(#1867ce, #458cde);
   color: #fff;
   text-align: left;
+  max-width: 95vw;
+  max-height: 95vh;
 }
 
 .window-content {
