@@ -59,13 +59,13 @@
 #research-window{
   width: 500px;
   height: 310px;
-  max-width: 95vw;
+  max-width: 90vw;
   max-height: 95vh;
 }
 
 #window-header-research{
-  width: 500px;
-  max-width: 95vw;
+  width: 497px;
+  max-width: 90vw;
 }
 
 #research-text{
@@ -77,4 +77,10 @@
 #mine-window{
   max-width: 95vw;
   max-height: 95vw;
+}
+
+@media (max-width:400px) {
+  #research-window{
+    height: 500px;
+  }
 }
