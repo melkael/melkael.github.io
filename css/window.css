@@ -65,6 +65,14 @@
     position: relative;
     height: auto;
   }
+  #about-window{
+    position: relative;
+    height: auto;
+  }
+  #manu-window{
+    position: relative;
+    height: auto;
+  }
 }
 
 #window-header-research{
