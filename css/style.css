@@ -293,6 +293,9 @@ li {
 #mine-window {
   width: 400px;
   height: 422px;
+  white-space: nowrap;
+
+  overflow-x: scroll;
 }
 
 #medium {
