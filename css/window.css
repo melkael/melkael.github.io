@@ -56,7 +56,7 @@
 
 #research-window{
   width: 500px;
-  height: 310px;
+  height: auto;
   max-width: 95vw;
 }
 
@@ -86,10 +86,30 @@
 
 #window-header-research{
   max-width:95vw;
+  position: relative;
+  width: calc(100% - 3px);
+}
+
+#header-about{
+  position: relative;
+  width: calc(100% - 3px);
+}
+
+#manu-header{
+  position: relative;
+  width: calc(100% - 3px);
 }
 
 #research-text{
   margin-top: 8px;
   margin-left: 3px;
   margin-right: 3px;
+}
+
+#paint-header{
+  width: 402px;
+}
+
+#calc-header{
+  width: 297px;
 }
